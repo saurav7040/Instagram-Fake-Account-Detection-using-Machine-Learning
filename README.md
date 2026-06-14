@@ -11,6 +11,8 @@ Social media security analysis
 Bot detection systems
 Fake profile prevention
 Data science portfolio project
+
+
 🚀 Features
 Detects fake Instagram accounts using ML
 Data preprocessing and feature engineering
@@ -18,6 +20,8 @@ Model training and evaluation
 Accuracy measurement and confusion matrix
 Easy-to-use prediction system
 Optional Streamlit web app integration
+
+
 🧠 Machine Learning Workflow
 Data Collection (Instagram profile dataset)
 Data Cleaning & Preprocessing
@@ -29,6 +33,7 @@ Random Forest Classifier
 Support Vector Machine (SVM)
 Model Evaluation
 Prediction (Fake / Real)
+
 📊 Features Used
 Number of posts
 Number of followers
@@ -37,6 +42,8 @@ Bio length
 External URL presence
 Profile picture availability
 Account privacy status
+
+
 🛠️ Tech Stack
 Python 🐍
 Pandas
@@ -44,6 +51,8 @@ NumPy
 Scikit-learn
 Matplotlib / Seaborn
 Jupyter Notebook
+
+
 📁 Project Structure
 Instagram-Fake-Account-Detector/
 │
@@ -59,15 +68,21 @@ Instagram-Fake-Account-Detector/
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+
 ⚙️ Installation
 git clone https://github.com/your-username/Instagram-Fake-Account-Detector.git
 cd Instagram-Fake-Account-Detector
 pip install -r requirements.txt
+
+
+
 ▶️ How to Run
 1. Run Jupyter Notebook (Training)
 jupyter notebook
 2. Run Streamlit App (Optional)
 streamlit run app.py
+
 🤖 Model Accuracy
 Model	Accuracy
 Random Forest	~92%
@@ -76,6 +91,8 @@ SVM	~90%
 📌 Output Example
 Input: Instagram Profile Data
 Output: Fake Account ❌ / Real Account ✅
+
+
 📷 Use Cases
 Detect fake influencers
 Identify bot accounts
